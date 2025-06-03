@@ -25,5 +25,30 @@ int main() {
     Pontos = Número de pontos turísticos
     */
 
+    printf("Bem-vindo ao Desafio Super Trunfo! \n");
+    printf("Tema: Países \n \n");
+    printf("Para iniciar, cadastre as informações da primeira carta abaixo: \n");
+
+    printf("Digite o nome do País: \n ");
+    scanf("%s", Pais1);
+
+    printf("Digite o código da carta: (A inicial do país + 1 número de 01 à 04) \n ");
+    scanf("%s", Codigo1);
+
+    printf("Digite o nome da cidade: \n ");
+    scanf("%s", Cidade1);
+
+    printf("Digite o número total de habitantes da cidade: \n ");
+    scanf("%d", &Populacao1);
+
+    printf("Digite o valor total da área da cidade em km²: \n ");
+    scanf("%f", &Area1);
+
+    printf("Digite o valor do PIB da cidade: \n ");
+    scanf("%f", &PIB1);
+
+    printf("Digite a quantidade de pontos turísticos da cidade: \n ");
+    scanf("%d", &pontos1);
+
     return 0;
 }
