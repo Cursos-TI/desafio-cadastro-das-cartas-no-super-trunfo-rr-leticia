@@ -17,7 +17,7 @@ int main() {
     /*
     Estado = Nome do País
     Código = Código da carta 
-    Código da carta = O país é dividido em oito estados (A a H), e cada estado com quatro cidades (1 a 4). A combinação forma o código da carta (ex: A01, B02).
+    Código da carta = Letra inicial do país e número de 01 à 04 para identificar a cidade. A combinação forma o código da carta (ex: A01, B02).
     Cidade = Nome da cidade
     População = Número total de habitantes
     Area = Area em km²
