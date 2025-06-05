@@ -13,6 +13,10 @@ int main() {
     float Area1, Area2;
     float PIB1, PIB2;
     int pontos1, pontos2;
+    //Nível Aventureiro
+    //Adicionar duas novas variáveis (Densidade Populacional e PIB per capita) calculando os dados já inseridos anteriormente
+    float DensidadePop1, DensidadePop2;
+    float PIBperCapita1, PIBperCapita2;
 
     /*
     Estado = Nome do País
@@ -23,6 +27,8 @@ int main() {
     Area = Area em km²
     PIB = PIB
     Pontos = Número de pontos turísticos
+    DensidadePop = População / área da cidade
+    PIBperCapita = PIB / População
     */
 
     printf("Bem-vindo ao Desafio Super Trunfo! \n");
@@ -76,6 +82,8 @@ int main() {
 
     printf("As cartas foram cadastradas com sucesso! Veja a seguir: \n \n");
 
+    
+
     //Exibição da primeira carta
 
     printf("Carta 1: \n");
@@ -98,6 +106,7 @@ int main() {
     printf("PIB: %.2f \n", PIB2);
     printf("Número de pontos turísticos: %d \n", pontos2);
 
+    
 
     return 0;
 }
